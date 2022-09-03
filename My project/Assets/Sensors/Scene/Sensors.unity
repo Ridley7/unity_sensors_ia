@@ -232,7 +232,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66212039}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14679d33a9cf834459bc3e4331d5e7a7, type: 3}
   m_Name: 
@@ -262,7 +262,7 @@ BoxCollider:
   m_GameObject: {fileID: 66212039}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 15, y: 1, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
@@ -273,9 +273,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66212039}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf3c5a06149c1124299d5c5138a15573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &66212049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66212039}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fbce488c664b84a9db484bebd6ad36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundThresholdToDetectPlayer: 10
+  soundThresholdToFollowPlayer: 15
+--- !u!114 &66212055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66212039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b21c1616dbeaa4abbbcabedd283154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &425136791
@@ -1058,6 +1084,31 @@ MonoBehaviour:
   target: {fileID: 1135432880}
   moveSpeed: 6
   rotSpeed: 4
+--- !u!65 &1752712303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752712296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 2, z: 30}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1752712310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752712296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4d1d67352465942bdb46a85f5444c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2051395395
 GameObject:
   m_ObjectHideFlags: 0
